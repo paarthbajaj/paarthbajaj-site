@@ -16,5 +16,22 @@
 }
 .navigation .list
 {
-    color: var(--off-white)
+    text-decoration: none;
+    color: var(--off-white);
+    padding-left: 2rem;
+}
+.navigation .nav-list
+{
+    text-align: right;
+
+}
+.navigation .active
+{
+    font-weight: bold;
+}
+
+/* lists */
+.inline-list
+{
+    display: inline;
 }
