@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 :root
 {
     --primary-color: #60A5FA;
     --off-white: #F3F4F6;
+}
+body
+{
+    margin:0px;
+    font-family: 'Nunito',sans-serif;
 }
 /* navigation */
 .navigation
@@ -14,12 +21,7 @@
     font-weight: bold;
     color: var(--off-white);
 }
-.navigation .list
-{
-    text-decoration: none;
-    color: var(--off-white);
-    padding-left: 2rem;
-}
+
 .navigation .nav-list
 {
     text-align: right;
@@ -30,8 +32,96 @@
     font-weight: bold;
 }
 
+/* header */
+.hero-section
+{
+    padding: 2rem;
+    text-align: center;
+}
+.hero-section .hero-image
+{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+.hero-section h1
+{
+    padding-top: 1rem;
+}
+
+
+
 /* lists */
 .inline-list
 {
     display: inline;
+}
+.list
+{
+    text-decoration: none;
+    color: var(--off-white);
+    padding-left: 2rem;
+}
+
+/* sections */
+.section h2
+{
+    text-align: center;
+}
+.offwhite
+{
+    background-color: var(--off-white);
+}
+.section
+{
+    padding: 2rem;
+}
+
+/* containers */
+.makecenter
+{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* footer */
+
+.footers
+{
+    text-align: center;
+    color: var(--off-white);
+    padding: 2rem;
+    background-color: var(--primary-color) ;
+}
+.footers ul
+{
+    padding-inline-start: 0px;
+}
+
+/* button */
+.buttons
+{
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    color: var(--off-white);
+    text-decoration: none ;
+    border-radius: 0.5rem; 
+}
+.sec-button
+{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none ;
+}
+
+/* ol */
+.off-sec
+{   
+    padding: 2rem;
+}
+.new-sec
+{
+    padding: 2rem;
 }
